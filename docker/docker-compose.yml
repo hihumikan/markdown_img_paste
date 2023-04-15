@@ -1,8 +1,0 @@
-version: '3.8'
-services:
-  node:
-    image: node:18-slim
-    working_dir: /chrome_extention
-    volumes:
-    - ..:/chrome_extention
-    tty: true
